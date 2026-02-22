@@ -8,7 +8,7 @@ function AppContextProvider(props) {
   axios.defaults.withCredentials = true;
 
   // const backendUrl = import.meta.env.VITE_BACKEND_URL;
-  const backendUrl = "https://mern-authentication-backend-hy1r.onrender.com";
+  const backendUrl = "https://mern-auth-backend-2-b832.onrender.com";
   const [isLoggedIn, setIsLoggedIn] = useState(false);
   const [userData, setUserData] = useState(null);
 
